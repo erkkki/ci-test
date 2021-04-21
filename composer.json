@@ -53,7 +53,7 @@
       "@auto-scripts"
     ],
     "phpunit": [
-      "php bin/phpunit"
+      "phpunit"
     ],
     "test": [
       "@fixtures",
@@ -83,14 +83,17 @@
     }
   },
   "require-dev": {
+    "ext-json": "*",
     "doctrine/doctrine-fixtures-bundle": "^3.4",
     "phpstan/extension-installer": "^1.1",
     "phpstan/phpstan-symfony": "^0.12.22",
+    "phpunit/phpunit": "^9.5",
     "squizlabs/php_codesniffer": "^3.6",
+    "symfony/browser-kit": "^5.2",
+    "symfony/css-selector": "^5.2",
     "symfony/maker-bundle": "^1.30",
     "symfony/phpunit-bridge": "^5.2",
-    "symfony/requirements-checker": "^2.0",
-    "ext-json": "*"
+    "symfony/requirements-checker": "^2.0"
   },
   "name": "erkkki/testing",
   "description": ""
